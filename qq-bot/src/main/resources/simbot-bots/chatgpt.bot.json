@@ -1,0 +1,30 @@
+{
+  "component": "simbot.qqguild",
+  "ticket": {
+    "appId": "102053642",
+    "token": "7F0vM5XdXZA9fuW6n3D0Xo8xqdYVEV8T",
+    "secret": "Sq0wd7MM7ewzoxud"
+  },
+  "config": {
+    "serverUrl": "SANDBOX",
+    "shard": {
+      "type": "full"
+    },
+    "intents": {
+      "type": "raw",
+      "intents": 1073741827
+    },
+    "timeout": {
+      "apiHttpRequestTimeoutMillis": null,
+      "apiHttpConnectTimeoutMillis": null,
+      "apiHttpSocketTimeoutMillis": null
+    },
+    "cache": {
+      "enable": true,
+      "transmit": {
+        "enable": true
+      }
+    },
+    "clientProperties": null
+  }
+}

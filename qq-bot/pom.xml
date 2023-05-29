@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.1.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.baize</groupId>
+    <artifactId>qq-bot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>qq-bot</name>
+    <description>qq-bot</description>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- simbot core starter -->
+        <dependency>
+            <groupId>love.forte.simbot.boot</groupId>
+            <artifactId>simboot-core-spring-boot-starter</artifactId>
+            <version>3.0.0</version><!-- 版本请参考下文的参考链接 -->
+        </dependency>
+        <!-- QQ频道组件 -->
+        <dependency>
+            <groupId>love.forte.simbot.component</groupId>
+            <artifactId>simbot-component-qq-guild-core</artifactId>
+            <version>3.0.0.0-alpha.8</version><!-- 或参考下文的参考链接 -->
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
