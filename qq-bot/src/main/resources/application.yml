@@ -1,0 +1,11 @@
+spring:
+  data:
+    redis:
+      host: "47.115.212.91"
+      port: 6379
+      password: "123456"
+      database: 3
+
+openai:
+  openapi-key: "sk-1AobxkzBmojRuTfABtOq9o8DZVt3sfAYp7HaM74TbAYSnmrT"
+  apiUrl: "https://api.chatanywhere.com.cn"
